@@ -65,3 +65,24 @@ Não existe um único modelo que defina a nova era. O que existe são vertentes 
   * Intelectuais e digitais
 * Sobrevivência
   * Dos mais rápidos
+
+## Tendências do Novo Modelo Econômico
+* **Tecnologia como Motor**
+  * TI, biotecnologia, IA e energias renováveis criam novas oportunidades econômicas e empregos
+* **Transformação do Trabalho**
+  * Automação e IA impactam a natureza do emprego, exigindo requalificação da força de trabalho
+* **Economia Digital**
+  * Plataformas online, e-commerce e serviços sob demanda tornam-se modelos de negócio dominantes
+* **Globalização e Conectividade**
+  * Tecnologia permite comércio internacional, colaboração entre fronteiras e redes globais de suprimentos
+
+# Economia Circular, Ecológica e Novos Setores
+* **Economia Circulas**
+  * Propões mudança no paradigma de produção e consumo: reduzir desperdício, promover reutilização, reciclagem e regeneração
+  * Substitui o modelo linear _extrair-produzir-descartar_ por um ciclo contínuo e sustentável
+* **Economia Ecológica**
+  * Com o reconhecimento dos desafios ambientais, a economia volta-se cada vez mais para a sustentabilidade e os limites dos recursos naturais
+* **Novos Setores Emergentes**
+  * A era da inovação viu o surgimento de setores completamente novos: economia de aplicativos, realidade virtual/aumentada e pesquisa em energia limpas
+* **Mudanças na Economia Tradicional**
+  * Esse era desafia como se mede o valor econômico, como empresas são avaliadas e como os mercados funcionam
