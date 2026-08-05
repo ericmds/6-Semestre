@@ -1,1 +1,52 @@
+# Camada de aplicação
+* Onde usuário e programas se comunicam, também é a camada mais exposta a ataques
 
+# Camada de transporte
+* Organiza a entrega de dados entre processo
+* É aqui que vivem as portas
+* TCP se importa com a ordem de chegada dos pacotes
+* UDP não se importa com a ordem de chegada dos pacotes
+
+# Camada de rede
+* IP: Nesse protocolo que é definido o IP e teoricamente o IP é único
+* IPV4 vs IPV6
+* IPV4 funciona com 32 bits
+* Cada um dos número do ipv4 é correspondido por um número binário de 8 bits, sempre variando de 0 e 255
+* O IPV4 é limitado a cerca de 4,3 bilhões de endereços, mas já foi utilizado todos desde 2011, por conta disso foi criado o IPV6 e é sustando hoje por NAT
+* O IPV6 foi criado com o objetivo de suprir a falta do IP's únicos do IPV4, com a quantidade de endereços praticamente inesgotável e não depende de NAT para funcionar
+
+# Camada de acesso à Rede
+* Coloca os dados fisicamente no meio de transmissão - cabo, rádio ou fibra
+* Ethernet
+* Endereço MAC - endereço físico de cada placa de rede, como se fosse um CPF, único para cada um
+* Wi-Fi
+* ARP - pega o endereço MAC e traduz em IP
+
+# Exercícios de fixação 1
+1. Classifique cada item na camada correta do TCP/IP: HTTP, ARP, UDP, Ethernet.
+  * HTTP: Camada de Aplicação
+  * ARP: Camada de Acesso à Rede
+  * UDP: Camada de Transporte
+  * Ethernet: Camada de Acesso à Rede
+2. Qual a máscara de sub-rede equivalente a /27? Quantos hosts utilizáveis ela permite?
+  * 255.255.255.244
+  * Host: 30
+3. Um pacote chega na porta 443 de um servidor. Qual protocolo de transporte e qual serviço provavelmente estão envolvidos?
+  * TCP e HTTPS
+4. Em uma frase, explique a diferença prática entre TCP e UDP.
+  * 
+5. Por que um endereço IP privado (ex.: 192.168.0.5) nunca aparece diretamente na internet?
+  * Por conta da tabela NAT que traduz o endereço ip privado para um endereço ip público
+
+# Exercícios de fixação 2
+1. Uma empresa tem o bloco 192.168.10.0/24. Quantos hosts utilizáveis existem nessa rede? Qual o endereço de broadcast?
+  * 256 hosts - 2 do IP e Broadcast = 254 hosts utilizáveis
+  * Broadcast: 192.168.10.255
+2. Você precisa dividir 192.168.20.0/24 em 4 sub-redes de tamanho igual. Qual máscara usar, e quais os blocos resultantes?
+  * Máscara: 255.255.255.192.
+  * 192.168.20.1 até 192.168.20.62
+  * 192.168.20.65 até 192.168.20.126
+  * 192.168.20.129 até 192.168.20.190
+
+3. Dois hosts, 10.0.5.12/26 e 10.0.5.80/26, estão na mesma sub-rede? Justifique com o cálculo
+  * Não, o host 10.0.5.12/26 pertence à primeira sub-rede (10.0.5.0), enquanto o host 10.0.5.80/26 pertence à segunda sub-rede (10.0.5.64)
