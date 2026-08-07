@@ -92,3 +92,42 @@ t4 = threading.Thread(target=bolha, args=(lista2,))
 t4.start()
 t3.start()
 ```
+
+```java
+import java.util.ArrayList;
+import java.util.Random;
+
+class TarefaPopular extends Thread {
+    ArrayList<Integer> lista;
+    int quantidade;
+
+    public TarefaPopular(ArrayList<Integer> lista, int quantidade) {
+        this.lista = lista;
+        this.quantidade = quantidade;
+    }
+
+    @Override
+    
+}
+
+public class ExemploThread {
+    public static void main(String[] args) {
+        ArrayList<Integer> listaA = new ArrayList<>();
+        ArrayList<Integer> listaB = new ArrayList<>();
+        Random gerador = new Random();
+
+        Thread t1 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                listaA.add(gerador.nextInt(200));
+            }
+        });
+
+        Thread t2 = new Thread(() -> {
+            for (int i = 0; i < 5000; i++) {
+                listaB.add(gerador.nextInt(200));
+            }
+        });
+    }
+    
+}
+```
