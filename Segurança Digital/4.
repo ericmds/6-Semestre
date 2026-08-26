@@ -1,0 +1,15 @@
+ls - mostra diretorio
+ls *.txt mostra todos os arquivos .txt
+ls teste* - todos os arquivos que começam com teste
+ls teste?.txt - pega todos os arquivos que tem teste alguma coisa .txt. ex: teste1.txt, teste2.txt
+ls teste[1-3].txt - pega os arquivos .txt de teste de 1 a 3
+mkdir aulaSeguranca - cria diretorio
+cp teste[1-3].txt ./aulaSeguranca - copia os tres arquivos para aula seguranca
+cp teste*.{txt,c} aulaSeguranca - copia todos os teste.txt e teste.c para aulaSeguranca
+touch arquivo
+mv arquivo aulaSeguranca - move
+cd. voltar
+chmod 777 - altera as permissoes r,w,x do teu arquivo
+sudo su - entra como super
+exit - sair do super usuario
+alias nm='sudo..' - faz nm ser um comando
