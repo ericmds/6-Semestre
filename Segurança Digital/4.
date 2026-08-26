@@ -13,3 +13,4 @@ chmod 777 - altera as permissoes r,w,x do teu arquivo
 sudo su - entra como super
 exit - sair do super usuario
 alias nm='sudo..' - faz nm ser um comando
+
